@@ -1,0 +1,364 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(img/background.jpg);
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: rgba(224, 255, 246, 0.822);
+    width: 100%;
+    height: 150px;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 90px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    width: 150px;
+    height: 90px;
+    margin-top: 5px;
+    margin-right: 100px;
+}
+
+.logo img{
+    width: auto;
+    height: 130px;
+}
+
+header nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    width: 80%;
+    height: 150px;
+    background-color: rgba(255, 255, 255, 0.623);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 10% 100%);
+}
+
+header a{
+    color: #ED910D;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    font-size: 1.7em;
+    text-decoration: none;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 100px;
+}
+
+header a:hover{
+    color: #DB5212;
+    font-family:'Source Sans Pro', sans-serif;
+    font-size: 1.7em;
+    text-decoration: none;
+}
+
+nav img{
+    width: auto;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.submenu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: #F8B037;
+    width: 100%;
+    height: 80px;
+}
+
+.submenu nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
+    height: 80px;
+}
+
+.submenu a{
+    color: #ffffff;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    font-weight: 300;
+    font-size: 1.7em;
+    text-decoration: none;
+}
+
+.submenu a:hover{
+    color: #DB5212;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.7em;
+    text-decoration: none;
+}
+
+.contacto{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin-top: 70px;
+}
+.contact{  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%; 
+    height: auto;
+    border-radius: 50px;  
+    padding-top: 30px;
+    padding-bottom: 20px;  
+    background-color: rgba(224, 255, 246, 0.822);
+}
+
+.formulario{
+    display: flex;
+    flex-direction: row;
+} 
+
+.columna{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.otro{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin-right: 90px;
+}
+
+.otro h3{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    font-size: 2.5em;
+    text-align: center;
+    line-height: 1em;
+    padding: 25px;
+    
+}
+
+.otro p{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    font-size: 2.2em;
+    text-align: center;
+    line-height: 0.5em;
+}
+
+.otro img{
+    width: 100px;
+    height: auto;
+}
+
+input{
+    background-color: #fbfbfb; 
+    width: 90%; 
+    height: 40px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 2px; 
+    border-color: #F8B037; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+}
+  
+textarea{
+    background-color: #fbfbfb; 
+    width: 90%; 
+    height: 150px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 2px; 
+    border-color: #F8B037; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+    padding-top: 15px; 
+}
+   
+label{
+    display: block; 
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    font-size: 1.5em;
+}
+  
+button{
+    width: 420px;   
+    height: auto; 
+    cursor: pointer;
+    border: none;
+    background-color: rgba(224, 255, 246, 0);
+}
+
+button img{
+    width: 150px;
+    height: auto;
+} 
+  
+span{
+    color: #DB5212; 
+}
+    
+.aviso{
+    font-size: 13px;  
+    color: #0e0e0e;  
+}
+  
+h2{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    font-size: 4em;
+    text-align: center;
+    color: #DB5212;
+}
+    
+p{
+    font-size: 14px; 
+    color: #0e0e0e; 
+}
+  
+.formulario input:focus{
+    outline:0;
+    border: 1px solid #97d848;
+}
+  
+.formulario textarea:focus{
+    outline:0;
+    border: 1px solid #97d848;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(17, 17, 17);
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+}
+
+.blanco{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.623);
+    clip-path: polygon(0% 0%, 100% 0%, 90% 100%, 0% 100%);
+}
+
+.zorro{
+    display: flex;
+    justify-content: center;
+    margin-right: 15%;
+}
+
+.zorro img{
+    width: 200px;
+    height: auto;
+    margin-top: 20px;
+}
+
+.redes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    margin-right: 15%;
+}
+
+.redes img{
+    width: 50px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.black{
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    height: auto;
+}
+
+.tienda{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 20%;
+}
+
+.tienda h3{
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: left;
+    font-weight: 600;
+    font-size: 2em;
+    color: white;
+}
+
+.tienda a{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 1.2em;
+    line-height: 1.7em;
+    text-decoration: none;
+    color: white;
+    text-align: left;
+}
+
+.enlaces{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.enlaces h3{
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: left;
+    font-weight: 600;
+    font-size: 2em;
+    color: white;
+}
+
+.enlaces a{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 1.2em;
+    line-height: 1.7em;
+    text-decoration: none;
+    color: white;
+    text-align: left;
+}

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="contacto.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="menu">
+            <div class="logo">
+                <img src="img/Logo Kyubi.png" alt="">
+            </div>
+        </div>
+        <nav>
+            <img src="img/Inicio.png" alt="" class="inicio">
+            <a href="index.html">INICIO</a>
+            <img src="img/usuario.png" alt="" class="usuario">
+            <a href="#">REGISTRATE</a>
+            <img src="img/carrito.png" alt="" class="carrito">
+            <a href="#">CARRITO</a>
+        </nav>
+    </header>
+
+    <div class="submenu">
+        <nav>
+            <a href="personalizable.html">Personaliza</a>
+            <a href="catalogo.html">Sudaderas y Playeras</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+    </div>
+
+    <section class="contacto">
+        <div class="contact">
+            <div class="formulario">      
+                <h2>Contáctanos</h2>
+            </div>
+            <div class="columna">
+                <div class="otro">
+                    <h3>Encargos por mayoreo:</h3>
+                    <p>sudaderas_kyubi@gmail.com</p>
+                    <br>
+                    <br>
+                    <h3>Preguntas frecuentes:</h3>
+                    <p>kyubisupport@gmail.com</p>
+                    <br>
+                    <br>
+                    <h3>Teléfono:</h3>
+                    <a href="#">
+                        <img src="img/whats.png" alt="">
+                    </a>
+                </div>
+                
+                    <form action="submeter-formulario.php" method="post">       
+                        <p>
+                        <label for="nombre" class="colocar_nombre">Nombre
+                        </label>
+                            <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                            </p>
+                        
+                            <p>
+                            <label for="email" class="colocar_email">Email
+                            </label>
+                                <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+                            </p> 
+                        
+                            <p>
+                            <label for="mensaje" class="colocar_mensaje">Mensaje
+                            </label>                     
+                                                <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+                                            </p>                    
+                        
+                        <button onclick="submit" name="enviar_formulario" id="enviar"><img src="img/boton2.png" alt=""></button>        
+                        
+                    </form>
+            </div>  
+        </div>
+    </section>
+    <footer>
+        <div class="blanco">
+            <div class="zorro">
+                <img src="img/Logo Kyubi.png" alt="">
+            </div>
+            <div class="redes">
+                <a href="https://www.facebook.com/Kyubi-101227092008409">
+                    <img src="img/Facebook.png" alt="">
+                </a>
+                <a href="https://twitter.com/sudaderas_kyubi">
+                    <img src="img/twitter.png" alt="">
+                </a>
+            </div>
+        </div>
+        <div class="black">
+            <div class="tienda">
+                <h3>TIENDA</h3>
+                <a href="personalizable.html">Personalizar</a>
+                <a href="#">Cuenta</a>
+                <a href="catalogo.html">Ropa</a>
+            </div>
+            <div class="enlaces">
+                <h3>ENLACES</h3>
+                <a href="contacto.html">Contacto</a>
+                <a href="#">Envíos</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
